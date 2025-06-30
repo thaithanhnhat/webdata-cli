@@ -1,9 +1,8 @@
 # WebData CLI
 
-[![PyPI version](https://badge.fury.io/py/webdata-cli.svg)](https://badge.fury.io/py/webdata-cli)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![AI Optimized](https://img.shields.io/badge/AI-Optimized-green.svg)](https://github.com/your-username/webdata-cli)
+[![AI Optimized](https://img.shields.io/badge/AI-Optimized-green.svg)](https://github.com/thaithanhnhat/webdata-cli)
 
 🚀 **Powerful web automation tool for AI Agents** - Chrome automation, data extraction, and real-time interface monitoring.
 
@@ -23,16 +22,8 @@
 
 ## 📦 Installation
 
-### Option 1: Install from PyPI (Recommended)
 ```bash
-pip install webdata-cli
-```
-
-### Option 2: Install from Source
-```bash
-git clone https://github.com/your-username/webdata-cli.git
-cd webdata-cli
-pip install .
+pip install git+https://github.com/thaithanhnhat/webdata-cli.git
 ```
 
 ### Verify Installation
@@ -40,37 +31,11 @@ pip install .
 webdata --help
 ```
 
-### 🌍 Global Access Setup
-
-After installation, `webdata` command should be available globally. If not:
-
-#### Windows
-```bash
-# Add Python Scripts to PATH
-# Usually: C:\Users\YourName\AppData\Local\Programs\Python\Python3X\Scripts
-# Or check with:
-python -m site --user-base
-```
-
-#### macOS/Linux
-```bash
-# Add to ~/.bashrc or ~/.zshrc
-export PATH="$HOME/.local/bin:$PATH"
-source ~/.bashrc  # or ~/.zshrc
-```
-
-#### Verify Global Access
-```bash
-# Should work from any directory
-cd /any/directory
-webdata --help
-```
-
 ## 🚀 Quick Start
 
 ```bash
 # 1. Install
-pip install webdata-cli
+pip install git+https://github.com/thaithanhnhat/webdata-cli.git
 
 # 2. Integrate with your AI project
 cd /your/ai/project
@@ -183,13 +148,13 @@ pip uninstall webdata-cli
 
 - **Command not found**: Check `pip show webdata-cli` and PATH setup
 - **Chrome issues**: Install Chrome browser, run `webdata check-chrome`
-- **Permission errors**: Use `pip install --user webdata-cli`
+- **Permission errors**: Use `pip install --user git+https://github.com/thaithanhnhat/webdata-cli.git`
 
 For detailed troubleshooting: `webdata --help`
 
 ## 🤝 Contributing
 
-1. Fork the repository
+1. Fork the repository: https://github.com/thaithanhnhat/webdata-cli
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit changes (`git commit -m 'Add amazing feature'`)
 4. Push to branch (`git push origin feature/amazing-feature`)
