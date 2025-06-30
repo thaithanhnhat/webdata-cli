@@ -1153,7 +1153,7 @@ def integrate(project_path):
             return
 
         # Copy to project
-        target_file = project_dir / "WEBDATA_GUIDE.md"
+        target_file = project_dir / "AI_INTEGRATION_GUIDE.md"
         shutil.copy2(guide_file, target_file)
 
         # Create data directory for screenshots
@@ -1172,7 +1172,7 @@ def integrate(project_path):
 
         console.print(f"Integration guide copied to: {target_file}", style="green")
         console.print(f"Data directory created: {data_dir}", style="green")
-        console.print("AI assistants can now reference WEBDATA_GUIDE.md for usage instructions", style="blue")
+        console.print("AI assistants can now reference AI_INTEGRATION_GUIDE.md for usage instructions", style="blue")
 
     except Exception as e:
         console.print(f"Error integrating: {e}", style="red")

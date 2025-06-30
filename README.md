@@ -104,7 +104,7 @@ webdata remote get "https://example.com" --stream
 
 ```
 your-ai-project/
-├── WEBDATA_GUIDE.md          # AI instructions (auto-generated)
+├── AI_INTEGRATION_GUIDE.md   # AI instructions (auto-generated)
 ├── data/
 │   └── current-interface.jpg  # Latest screenshot (auto-updated)
 └── your-ai-code.py
@@ -166,7 +166,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🆘 Support
 
-- 📖 **Documentation**: Check `WEBDATA_GUIDE.md` after integration
+- 📖 **Documentation**: Check `AI_INTEGRATION_GUIDE.md` after integration
 - 🐛 **Issues**: Create GitHub Issues for bugs and feature requests
 - 💬 **Questions**: Use GitHub Discussions for questions and help
 - 📧 **Contact**: For enterprise support and custom integrations
