@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "webdata-cli"
+version = "1.0.0"
+description = "Web data extraction tool for AI assistants"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "WebData CLI"}
+]
+requires-python = ">=3.7"
+dependencies = [
+    "websockets",
+    "click",
+    "rich",
+    "requests",
+    "aiofiles",
+    "pydantic",
+    "selenium",
+    "schedule",
+    "pillow"
+]
+
+[project.scripts]
+webdata = "webdata:main"
+
+[tool.setuptools]
+py-modules = ["webdata"]

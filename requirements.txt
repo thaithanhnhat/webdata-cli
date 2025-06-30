@@ -1,0 +1,8 @@
+websockets
+click
+rich
+requests
+aiofiles
+pydantic
+selenium
+schedule

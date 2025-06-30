@@ -1,0 +1,121 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# WebData CLI specific
+data/
+logs/
+stream/
+*.log
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+
+# Chrome user data
+chrome_*
+temp/
+tmp/
+
+# Test files
+test-project/
+test_*.py
+*_test.py
+test.py
+
+# Backup files
+*_OLD.md
+*_NEW.md
+README_OLD.md
+README_NEW.md
+AI_INTEGRATION_GUIDE_VERBOSE.md
+
+# Config files
+webdata_config.json
+config.json
+settings.json
+
+# Build artifacts
+*.whl
+*.tar.gz
+
+# Local config
+.env.local
+config.local.*
+settings.local.*
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
